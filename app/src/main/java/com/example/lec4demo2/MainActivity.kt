@@ -34,7 +34,8 @@ class MainActivity : AppCompatActivity() {
 
         val exampleSongList = listOf(
             Song(songImageId = R.drawable.strobe, songName = "Strobe", artistName = "deadmau5", albumName = "For Lack of a Better Name"),
-            Song(songImageId = R.drawable.supersonic, songName = "Supersonic", artistName = "Joshwa", albumName = "Bass Go Boom")
+            Song(songImageId = R.drawable.supersonic, songName = "Supersonic", artistName = "Joshwa", albumName = "Bass Go Boom"),
+            Song(songImageId = R.drawable.ill, songName = "LET'S GET ILL", artistName = "longstoryshort", albumName = "(single)"),
         )
 
 

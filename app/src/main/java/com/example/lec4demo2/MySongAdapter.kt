@@ -33,6 +33,7 @@ class MySongAdapter (
 
         override fun onBindViewHolder(holder: MySongViewHolder, position: Int) {
             val song : Song = songList[position]
+            holder.imageId.setImageResource(song.songImageId)
             holder.songNameText.text = song.songName
             holder.artistNameText.text = song.artistName
             holder.albumNameText.text = song.albumName
